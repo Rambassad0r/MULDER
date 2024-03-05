@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction-Diffusion Simulation</title>
+    <script src="https://cdn.jsdelivr.net/gh/Rambassad0r/MULDER/Reaction-Diffusion-ThreeJS-master/src/reaction-diffusion.js"></script>
+    <style>
+        .rd-init-failed {
+            /* Styling for failed initialization */
+        }
+        .rd-init-success {
+            /* Styling for successful initialization */
+        }
+    </style>
+</head>
+<body>
+    <div id="reaction-diffusion-container" class="reaction-diffusion-container" no-gui="true" feed="0.01" kill="0.05" resolution-scale="0.5" steps-per-iteration="8" time-scale="1.0" allow-interaction="false" seed-frequency="4.0" force-half-precision="true">
+        <!-- Simulation canvas will be injected here -->
+    </div>
+</body>
+</html>
