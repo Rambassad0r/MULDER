@@ -1,0 +1,48 @@
+{
+  "name": "reaction-diffusion",
+  "version": "1.1.0",
+  "description": "GPGPU simulation of various Reaction-Diffusion systems",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "build_prod": "webpack --env build",
+    "build_dev": "webpack --env dev --color",
+    "dev:watch": "npm run-script build_dev && webpack serve --env dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Cole",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "8.2.2",
+    "babel-plugin-add-module-exports": "1.0.4",
+    "core-js": "^3.8.3",
+    "file-loader": "^6.2.0",
+    "webpack": "5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2",
+    "yargs": "^16.2.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "simplex-noise": "^2.4.0",
+    "three": "^0.125.2"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colejd/Reaction-Diffusion-ThreeJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colejd/Reaction-Diffusion-ThreeJS/issues"
+  },
+  "homepage": "https://github.com/colejd/Reaction-Diffusion-ThreeJS#readme"
+}
